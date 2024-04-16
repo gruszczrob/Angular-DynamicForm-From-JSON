@@ -1,0 +1,8 @@
+<form>
+  <p>Select json file to create form forom it:</p>
+  <input id="inputFile" type="file" accept=".json" >
+</form>
+<button type="button" (click)="CreateNewFormBtnClicked()" routerLink="/form" >Create new form</button>
+<button type="button" routerLink="/instruction" >Instruction</button>
+
+<router-outlet />

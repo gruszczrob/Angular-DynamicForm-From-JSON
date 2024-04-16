@@ -1,0 +1,15 @@
+{
+    "Imie" : {"type":"text"},
+    "Nazwisko": {"type":"text"},
+    "Zwierze domowe":{"type":"select","options":["kot","pies","mrówka"]},
+    "Wiek": {"type":"number"},
+    "Miedia społecznościowe": {"type":"link"},
+    "Czy gra w piłkę": {"type":"checkbox"},
+    "Ulubiony kolor": {"type":"color"},
+    "Miesiąc urodzenia": {"type":"month"},
+    "Numer telefonu": {"type":"tel"},
+    "Która godzina": {"type":"time"},
+    "Range": {"type":"file"}
+
+
+}
